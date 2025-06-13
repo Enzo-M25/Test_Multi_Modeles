@@ -6,8 +6,7 @@
 Welcome to Comparaison Modèles --- Documentation's
 =================================================================
 
-Ceci est un test
-Ceci est un deuxième test
+Ceci est un 3ème test
 
 .. toctree::
    :maxdepth: 2
