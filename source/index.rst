@@ -11,6 +11,8 @@ Ceci est un deuxième test
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: API
 
    Multi_Model_doc/Choix
+   Multi_Model_doc/Jauge
+   Multi_Model_doc/Model
