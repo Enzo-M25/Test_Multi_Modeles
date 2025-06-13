@@ -21,7 +21,7 @@ extensions = [
 
 # Pour que Sphinx trouve votre code :
 import os, sys
-sys.path.insert(0, os.path.abspath("../Multi_model"))
+sys.path.insert(0, os.path.abspath("../"))
 
 
 templates_path = ['_templates']
