@@ -1,7 +1,7 @@
 Choix module
 ============
 
-.. automodule:: Choix
+.. automodule:: Model_folder.Choix
    :members:
    :undoc-members:
    :show-inheritance:
