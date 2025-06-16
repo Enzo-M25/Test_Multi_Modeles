@@ -1,10 +1,7 @@
 Model\_folder package
 =====================
 
-Submodules
-----------
-
-Model\_folder.GR4J module
+GR4J
 -------------------------
 
 .. automodule:: Model_folder.GR4J
@@ -12,7 +9,8 @@ Model\_folder.GR4J module
    :undoc-members:
    :show-inheritance:
 
-Model\_folder.Model module
+
+Model
 --------------------------
 
 .. automodule:: Model_folder.Model
@@ -20,7 +18,8 @@ Model\_folder.Model module
    :undoc-members:
    :show-inheritance:
 
-Model\_folder.RL module
+
+RL
 -----------------------
 
 .. automodule:: Model_folder.RL
