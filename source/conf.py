@@ -16,14 +16,9 @@ author = 'Enzo Maugan'
 # Pour que Sphinx trouve votre code :
 import os, sys
 sys.path.insert(0, os.path.abspath(".."))
+sys.path.insert(0, os.path.abspath("../Multi_model"))
 
-print(">>> sys.path is:", sys.path)
-print(">>> can I import Choix?", end=" ")
-try:
-    import Multi_model.Choix
-    print("OK")
-except Exception as e:
-    print("FAILED:", e)
+autodoc_mock_imports = ["scipy"]
 
 extensions = [
     "sphinx.ext.autodoc",      # pour importer et documenter vos modules

@@ -2,8 +2,8 @@
 import pandas as pd
 
 from Jauge import Jauge
-from .Model_folder.RL import RL
-from .Model_folder.GR4J import GR4J
+from Model_folder.RL import RL
+from Model_folder.GR4J import GR4J
 from Choix import Choix
 from Pre_process import Pre_Process
 from Post_process import Outputs
