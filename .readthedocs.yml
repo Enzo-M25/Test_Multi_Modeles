@@ -23,6 +23,4 @@ formats:
 # See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
 python:
   install:
-    - method: pip
-      # au lieu de 'path: .'
     - requirements_file: requirements.txt
