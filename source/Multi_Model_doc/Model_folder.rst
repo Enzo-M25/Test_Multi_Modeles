@@ -27,11 +27,3 @@ Model\_folder.RL module
    :members:
    :undoc-members:
    :show-inheritance:
-
-Module contents
----------------
-
-.. automodule:: Model_folder
-   :members:
-   :undoc-members:
-   :show-inheritance:
