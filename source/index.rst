@@ -6,12 +6,10 @@
 Welcome to Comparaison Modèles --- Documentation's
 =================================================================
 
-Ceci est un 3ème test
+Test4
 
 .. toctree::
    :maxdepth: 2
    :caption: API
 
-   Multi_Model_doc/Choix
-   Multi_Model_doc/Jauge
-   Multi_Model_doc/Model
+   Multi_Model_doc/Model_folder
