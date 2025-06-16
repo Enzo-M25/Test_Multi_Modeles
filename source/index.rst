@@ -6,10 +6,8 @@
 Welcome to Comparaison Modèles --- Documentation's
 =================================================================
 
-Texte3
-
 .. toctree::
    :maxdepth: 2
-   :caption: API
+   :caption: Contents
 
    Multi_Model_doc/Model_folder

@@ -1,4 +1,4 @@
-Model_folder package3
+Model_folder
 =====================
 
 GR4J
