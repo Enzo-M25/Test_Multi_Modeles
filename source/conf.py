@@ -15,10 +15,11 @@ author = 'Enzo Maugan'
 
 # Pour que Sphinx trouve votre code :
 import os, sys
+
 sys.path.insert(0, os.path.abspath(".."))
-sys.path.insert(0, os.path.abspath("../Multi_model"))
 
 autodoc_mock_imports = ["scipy"]
+autodoc_mock_imports += ["rpy2", "your_R_module_name"]
 
 extensions = [
     "sphinx.ext.autodoc",      # pour importer et documenter vos modules

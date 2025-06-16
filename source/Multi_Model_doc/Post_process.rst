@@ -1,7 +1,7 @@
 Post\_process module
 ====================
 
-.. automodule:: Post_process
+.. automodule:: Multi_model.Post_process
    :members:
    :undoc-members:
    :show-inheritance:

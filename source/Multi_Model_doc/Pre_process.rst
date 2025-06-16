@@ -1,7 +1,7 @@
 Pre\_process module
 ===================
 
-.. automodule:: Pre_process
+.. automodule:: Multi_model.Pre_process
    :members:
    :undoc-members:
    :show-inheritance:

@@ -1,12 +1,12 @@
  
 import pandas as pd
 
-from Jauge import Jauge
-from Model_folder.RL import RL
-from Model_folder.GR4J import GR4J
-from Choix import Choix
-from Pre_process import Pre_Process
-from Post_process import Outputs
+from Multi_model.Jauge import Jauge
+from Multi_model.Model_folder.RL import RL
+from Multi_model.Model_folder.GR4J import GR4J
+from Multi_model.Choix import Choix
+from Multi_model.Pre_process import Pre_Process
+from Multi_model.Post_process import Outputs
 
 import os
 from os.path import dirname, abspath

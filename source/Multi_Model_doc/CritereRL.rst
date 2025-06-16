@@ -1,7 +1,7 @@
 CritereRL module
 ================
 
-.. automodule:: CritereRL
+.. automodule:: Multi_model.CritereRL
    :members:
    :undoc-members:
    :show-inheritance:

@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 from typing import Optional
 import pandas as pd
 
-from ..Jauge import Jauge
+from Multi_model.Jauge import Jauge
 
 class Model :
     """

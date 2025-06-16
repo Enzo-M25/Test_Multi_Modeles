@@ -1,7 +1,7 @@
 Choix module
 ============
 
-.. automodule:: Choix
+.. automodule:: Multi_model.Choix
    :members:
    :undoc-members:
    :show-inheritance:

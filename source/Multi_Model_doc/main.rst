@@ -1,7 +1,7 @@
 main module
 ===========
 
-.. automodule:: main
+.. automodule:: Multi_model.main
    :members:
    :undoc-members:
    :show-inheritance:

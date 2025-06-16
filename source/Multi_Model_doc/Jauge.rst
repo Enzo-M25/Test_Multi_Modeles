@@ -1,7 +1,7 @@
 Jauge module
 ============
 
-.. automodule:: Jauge
+.. automodule:: Multi_model.Jauge
    :members:
    :undoc-members:
    :show-inheritance:

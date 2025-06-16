@@ -1,7 +1,7 @@
 CritereGR4J module
 ==================
 
-.. automodule:: CritereGR4J
+.. automodule:: Multi_model.CritereGR4J
    :members:
    :undoc-members:
    :show-inheritance:
