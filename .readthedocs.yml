@@ -25,4 +25,4 @@ python:
   install:
     - method: pip
       # au lieu de 'path: .'
-      requirements_file: requirements.txt
+    - requirements_file: requirements.txt
