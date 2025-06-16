@@ -15,9 +15,6 @@ build:
 sphinx:
    configuration: source/conf.py
 
-build:
-  image: latest
-
 formats:
   - pdf
 
