@@ -13,16 +13,15 @@ author = 'Enzo Maugan'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
+# Pour que Sphinx trouve votre code :
+import os, sys
+sys.path.insert(0, os.path.abspath("../"))
+
 extensions = [
     "sphinx.ext.autodoc",      # pour importer et documenter vos modules
     "sphinx.ext.autosummary",  # pour générer des pages résumées automatiquement
     "sphinx.ext.napoleon",     # si vous utilisez les styles Google/NumPy
 ]
-
-# Pour que Sphinx trouve votre code :
-import os, sys
-sys.path.insert(0, os.path.abspath("../"))
-
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
@@ -34,6 +33,7 @@ add_module_names = False
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
+autosummary_generate = True
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'navigation_depth': 2,      # profondeur d’affichage de la table des matières
