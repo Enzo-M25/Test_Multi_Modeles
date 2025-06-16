@@ -6,11 +6,10 @@
 Welcome to Comparaison Modèles --- Documentation's
 =================================================================
 
-Texte1
+Texte2
 
 .. toctree::
    :maxdepth: 2
    :caption: API
 
    Multi_Model_doc/Model_folder
-   Multi_Model_doc/Choix
