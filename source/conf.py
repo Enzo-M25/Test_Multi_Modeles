@@ -15,7 +15,7 @@ author = 'Enzo Maugan'
 
 # Pour que Sphinx trouve votre code :
 import os, sys
-sys.path.insert(0, os.path.abspath("../"))
+sys.path.insert(0, os.path.abspath(".."))
 
 extensions = [
     "sphinx.ext.autodoc",      # pour importer et documenter vos modules
