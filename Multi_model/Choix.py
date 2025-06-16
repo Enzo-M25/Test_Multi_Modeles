@@ -1,9 +1,7 @@
 
 import numpy as np
 
-from Model_folder.Model import Model
-from Model_folder.RL import RL
-from Jauge import Jauge
+from .Model_folder.Model import Model
 
 class Choix :
     """

@@ -6,7 +6,7 @@
 Welcome to Comparaison Modèles --- Documentation's
 =================================================================
 
-Texte22
+Texte3
 
 .. toctree::
    :maxdepth: 2

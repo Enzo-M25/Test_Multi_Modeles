@@ -3,9 +3,9 @@ import pandas as pd
 import numpy as np
 from typing import Optional
 
-from .Model import Model
-from Jauge import Jauge
-from CritereRL import CritereRL
+from Multi_model.Model_folder.Model import Model
+from ..Jauge import Jauge
+from ..CritereRL import CritereRL
 
 
 class RL(Model) :

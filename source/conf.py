@@ -17,6 +17,14 @@ author = 'Enzo Maugan'
 import os, sys
 sys.path.insert(0, os.path.abspath(".."))
 
+print(">>> sys.path is:", sys.path)
+print(">>> can I import Choix?", end=" ")
+try:
+    import Multi_model.Choix
+    print("OK")
+except Exception as e:
+    print("FAILED:", e)
+
 extensions = [
     "sphinx.ext.autodoc",      # pour importer et documenter vos modules
     "sphinx.ext.autosummary",  # pour générer des pages résumées automatiquement

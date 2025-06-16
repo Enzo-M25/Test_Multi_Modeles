@@ -13,9 +13,9 @@ from rpy2.robjects import pandas2ri, IntVector, FloatVector, StrVector
 #rpy2.rinterface_lib.callbacks.consolewrite_print = lambda x: None
 rpy2.rinterface_lib.callbacks.consolewrite_warnerror = lambda x: None
 
-from .Model import Model
-from Jauge import Jauge
-from CritereGR4J import CritereGR4J
+from Multi_model.Model_folder.Model import Model
+from ..Jauge import Jauge
+from ..CritereGR4J import CritereGR4J
 
 class GR4J(Model) :
     """
