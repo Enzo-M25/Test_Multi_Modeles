@@ -12,4 +12,11 @@ Test
    :maxdepth: 2
    :caption: Contents
 
+   Multi_Model_doc/Choix
+   Multi_Model_doc/CritereGR4J
+   Multi_Model_doc/CritereRL
+   Multi_Model_doc/Jauge
    Multi_Model_doc/Model_folder
+   Multi_Model_doc/Post_process
+   Multi_Model_doc/Pre_process
+   Multi_Model_doc/main

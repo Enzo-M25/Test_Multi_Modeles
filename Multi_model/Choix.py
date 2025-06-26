@@ -1,7 +1,7 @@
 
 import numpy as np
 
-from Multi_model.Model_folder.Model import Model
+from Model_folder.Model import Model
 
 class Choix :
     """

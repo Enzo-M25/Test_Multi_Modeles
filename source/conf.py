@@ -16,7 +16,17 @@ author = 'Enzo Maugan'
 # Pour que Sphinx trouve votre code :
 import os, sys
 
-sys.path.insert(0, os.path.abspath(".."))
+# Get the current directory (where conf.py is located)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Go up two levels to reach the project root
+project_root = os.path.abspath(os.path.join(current_dir, '..', '..'))
+sys.path.insert(0, project_root)
+
+# Print for verification
+print(f"Current directory: {current_dir}")
+print(f"Project root: {project_root}")
+print(f"Python path: {sys.path}")
 
 autodoc_mock_imports = ["scipy"]
 autodoc_mock_imports += ["rpy2", "your_R_module_name"]
